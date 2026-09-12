@@ -4,10 +4,7 @@ import plotly.express as px
 import seaborn as sns
 import streamlit as st
 
-# ---------------------------------------------------------------------------
-# CONFIGURAÇÃO DO CAMINHO DO DATASET
-# Ajuste o nome da subpasta abaixo de acordo com a pasta onde você salvou
-# o arquivo .csv dentro do seu projeto (ex: "dataset/", "data/", "dados/").
+
 # ---------------------------------------------------------------------------
 DATA_PATH = "dataset/enhanced_student_habits_performance_dataset.csv"
 
@@ -155,4 +152,4 @@ st.caption(
 )
 
 st.divider()
-st.caption("Dataset: Student Habits and Academic Performance (Kaggle) · Dashboard feito com Streamlit + Plotly")
+st.caption("Dataset: Student Habits and Academic Performance (Kaggle) · Dashboard feito com Streamlit + Plotly express + Seaborn + Matplotlib ")
